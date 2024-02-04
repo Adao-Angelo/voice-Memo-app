@@ -1,6 +1,6 @@
 export default class Media {
   async getAudio() {
-    return navigator.mediaDevices.getAudio({
+    return navigator.mediaDevices.getUserMedia({
       audio: true,
     });
   }

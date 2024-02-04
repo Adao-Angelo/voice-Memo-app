@@ -14,6 +14,6 @@ export default class Controller {
   }
 
   async onStartRecording() {
-    console.log("init tha record");
+    const audioStream = await this.media.getAudio();
   }
 }
